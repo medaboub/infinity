@@ -26,7 +26,7 @@ class XmlEncoder implements EncoderInterface
 class EncoderFactory {
     private $encoders=array();
     
-    public function addNewEncoder($format,EncoderInterface $encoder){
+    public function addEncoder($format,EncoderInterface $encoder){
         $this->encoders[$format]=$encoder;
     }
     
@@ -52,9 +52,9 @@ class GenericEncoder
 
 
 $encoderFactory=new EncoderFactory();
-$encoderFactory->addNewEncoder("json",new JsonEncoder());
-$encoderFactory->addNewEncoder("xml",new XmlEncoder());
-//$encoderFactory->addNewEncoder("custom",new customEncoder());
+$encoderFactory->addEncoder("json",new JsonEncoder());
+$encoderFactory->addEncoder("xml",new XmlEncoder());
+//$encoderFactory->addEncoder("custom",new customEncoder());
 $genericEncoder=new GenericEncoder($encoderFactory);
 $encodedData=$genericEncoder->encodeToFormat(array("name"=>"gaddour","surname"=>"mohamed"),"json");
 echo $encodedData;
