@@ -15,6 +15,7 @@ interface FileOwnerInterface{
 }
 
 
+
 class DropboxFile implements FileInterface
 {
    public function listParentsDirectory(): string
@@ -32,21 +33,6 @@ interface FileTypeInterface extends FileInterface
    public function handle();
 }
 
-class TypeFile implements FileTypeInterface{
-    
-    public function handle() {
-       return true; 
-    }
-
-    public function listParentsDirectory() {
-        
-    }
-
-    public function rename($name) {
-        
-    }
-
-}
 
 
 class LinuxFile implements FileInterface,FileOwnerInterface
@@ -54,7 +40,7 @@ class LinuxFile implements FileInterface,FileOwnerInterface
    public function __construct(FileTypeInterface $file)
    {
     if ($file->handle() === true) {
-    //    ...
+      //    ...
     }
    }
     
