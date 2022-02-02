@@ -56,5 +56,5 @@ $encoderFactory->addNewEncoder("json",new JsonEncoder());
 $encoderFactory->addNewEncoder("xml",new XmlEncoder());
 //$encoderFactory->addNewEncoder("custom",new customEncoder());
 $genericEncoder=new GenericEncoder($encoderFactory);
-$encodedData=$genericEncoder->encodeToFormat('{"name":"gaddour","surname":"mohamed"}',"json");
+$encodedData=$genericEncoder->encodeToFormat(array("name"=>"gaddour","surname"=>"mohamed"),"json");
 echo $encodedData;
