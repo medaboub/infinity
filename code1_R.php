@@ -26,7 +26,7 @@ class XmlEncoder implements EncoderInterface
 class EncoderFactory {
     private $encoders=array();
     
-    public function addNewFormatEncoder($format,EncoderInterface $encoder){
+    public function addNewEncoder($format,EncoderInterface $encoder){
         $this->encoders[$format]=$encoder;
     }
     
