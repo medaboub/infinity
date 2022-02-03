@@ -1,21 +1,19 @@
 <?php
 
-abstract class Encoder{
-    protected abstract function prepareData($data);
-}
 
 interface EncoderInterface{ 
   public function encode($data);
 }
 
-class JsonEncoder extends Encoder implements EncoderInterface
+
+class JsonEncoder implements EncoderInterface
 {    
   public function encode($data) {
       $data=$this->prepareData($data);  
       return json_encode($data);     
   }
 
- protected function prepareData($data) {
+ private function prepareData($data) {
     $data = $this->forceArray($data);
     $data= $this->fixKeys($data); 
     return $data;
@@ -24,17 +22,17 @@ class JsonEncoder extends Encoder implements EncoderInterface
 }
 
 
-class XmlEncoder extends Encoder implements EncoderInterface
+class XmlEncoder implements EncoderInterface
 {   
      public function encode($data) { 
        $data=$this->prepareData($data);  
        //return XML 
     }
   
-   protected function prepareData($data){
+    private function prepareData($data){
      $data= $this->fixAttributes($data);
      return $data;
-   }
+    }
    
 }
 
