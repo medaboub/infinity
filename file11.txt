@@ -1,0 +1,874 @@
+<resources>
+    <string name="app_name">CHATI</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_Profile">My Profile</string>
+    <string name="nav_Notifications">Notifications</string>
+    <string name="nav_Contacts">My Friends</string>
+    <string name="nav_Favorites">My Favourites</string>
+    <string name="nav_reservations">Reservations</string>
+    <string name="nav_add_requests">Friends Requests</string>
+    <string name="nav_reactions">Reactions</string>
+    <string name="nav_account">Account</string>
+
+    <string name="see_user_profile">View user profile</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string name="activity_invite_Friends">Invite your friends</string>
+    <string name="activity_title_about_us">CHATI WEB</string>
+    <string name="activity_title_facebook">CHATI Facebook</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="txt_email">E-mail address</string>
+    <string name="txt_birth_day">Birthday</string>
+    <string name="txt_name">Your first name</string>
+    <string name="txt_surname">Your last name</string>
+
+    <string name="close">Close</string>
+    <string name="dont_show_again">Do not show this message again</string>
+
+    <string name="user_login">User login</string>
+    <string name="user_login_txt">Login User to CHATI ...</string>
+
+    <string name="user_add">Adding new user</string>
+    <string name="user_add_txt">Adding new user to CHATI ...</string>
+
+    <string name="user_profile">Profile</string>
+
+    <string name="edit_profile">Edit Profile</string>
+    <string name="edit_profile_txt">Updating profile information ...</string>
+
+    <string name="error">Error</string>
+    <string name="error_loading_from_server">Error downloading data from the server</string>
+
+    <string name="succes">Success</string>
+
+    <string name="report_description">Thanks for reporting. Chati administration will take necessary measures towards this user.</string>
+
+    <string name="invite_html"><![CDATA[<body><p>I\'ve been using a new chat app called CHATI. You should try it.</p> <p>You can use this <a href="https://play.google.com/store/apps/details?id=com.chati.app">https://play.google.com/store/apps/details?id=com.chati.app</a> to install it on your Android device.</p></body>]]></string>
+
+    <string name="add_photo">Add Photo</string>
+    <string name="add_photo_gallery">Add a saved photo</string>
+    <string name="add_photo_cam">Add photo from camera</string>
+
+    <string name="txt_password">Password</string>
+    <string name="txt_password2">Repeat password</string>
+    <string name="btn_connect">Log In</string>
+    <string name="btn_register">Register</string>
+
+    <string name="facebook_app_id">315108160385873</string>
+    <string name="fb_login_protocol_scheme">fb315108160385873</string>
+
+    <string name="link_forget">Forgot your password?</string>
+    <string name="link_have_account">Already have an account ? log in</string>
+    <string name="link_retry">Click here to Retry</string>
+
+    <string name="link_register">Register</string>
+    <string name="gender_prompt">You are:</string>
+
+    <string name="country_prompt">Your country:</string>
+    <string name="error_field_required">Mandatory field cannot be empty!</string>
+
+    <string name="error_field_email">Email address Invalid !</string>
+    <string name="error_field_password">The password must be composed of 4 characters minimum !</string>
+
+    <string name="wait_please">Please wait ...</string>
+    <string name="activity_settings">Settings</string>
+    <string name="my_balance">My Tokens</string>
+
+
+    <string name="get_my_tokens">Get my tokens</string>
+    <string name="get_my_tokens_desc">This operation can only be done once.</string>
+
+    <string name="label_years">Years</string>
+
+    <string name="menu_profile_visitors">Who visited my profile</string>
+    <string name="menu_profile_likes">Who liked my profile</string>
+
+    <string name="profile_photo">Set as profile picture</string>
+    <string name="delete_photo">Delete picture</string>
+
+
+    <string name="invite_title">You know CHATI ?</string>
+
+    <string name="confirmation">Confirmation required</string>
+    <string name="information">Information</string>
+
+    <string name="error_field_rpassword">The two passwords are not identical !</string>
+
+    <string name="title_activity_contacts_pickup">Choose contacts</string>
+    <string name="invite_contacts_introduction">
+        To chat with new people, please help us increase the number of CHATI users.
+        Emails sent by our server to your contacts will be anonymous, your name and email address will not be included. In addition, email addresses of your contacts will not be saved.
+    </string>
+
+    <string name="accept">Accept</string>
+    <string name="refuse">Refuse</string>
+
+
+    <string name="lock">Lock </string>
+    <string name="lock_title">Block this user</string>
+    <string name="lock_description">If you lock this user,  He(she) will no longer be able to see your profile and send you add requests.</string>
+
+    <string name="unlock">Unlock </string>
+    <string name="unlock_title">Unlock User</string>
+    <string name="unlock_description">If you unlock this user, He(she) will be able to see your profile and send you requests to add.</string>
+
+
+    <string name="ok">OK</string>
+    <string name="add">Add</string>
+
+    <string name="message">Message</string>
+    <string name="contacts">Contacts</string>
+    <string name="send">Send</string>
+    <string name="b_continue">Continue</string>
+    <string name="token_to_continue">You must transfer %s token(s) to  %s to continue ...</string>
+
+    <string name="accept_add_request">Accept friend request from %1$s ?</string>
+
+    <string name="add_request_accepted">Congratulations you are now friend with %1$s </string>
+    <string name="add_request_refused">Friends request refused</string>
+
+    <string name="add_request_choose">You choose</string>
+    <string name="add_request_choice1">Spend a token and start chatting immediately.</string>
+    <string name="add_request_choice2">Send a friend request to chat.</string>
+
+    <string name="days">Day(s)</string>
+    <string name="w_s_things">Write Something</string>
+
+    <string name="insufficient_balance">Insufficient balance</string>
+    <string name="insufficient_balance_dec">You have to buy tokens to continue</string>
+    <string name="balance_buy">Buy tokens</string>
+    <string name="top_bar_success">Congratulations, you will be placed at the top of the search list for %1$s days.</string>
+
+    <string name="pictures">Pictures (%1$s)</string>
+    <string name="friends">Friends (%1$s)</string>
+    <string name="friends_of">Friends of %1$s</string>
+
+    <string name="next">Next</string>
+
+    <string name="add_request_him">
+       him
+    </string>
+
+    <string name="add_request_her">
+       her
+    </string>
+
+    <string name="f_men">Men</string>
+    <string name="f_women">Women</string>
+
+    <string name="f_with_image">Profile with image</string>
+
+    <string name="add_me_here">Add-me here</string>
+    <string name="add_me_here_title">Top Bar</string>
+    <string name="add_me_here_header">Be at the top of the list</string>
+    <string name="atop_bar_bottom_desc">Members placed in the top bar get 80% more visits</string>
+
+    <string name="add_request_title">
+       Friend request
+    </string>
+
+    <string name="add_request_message">
+        Ask %1$s to add you to his contact list. To be able to chat with %2$s.
+    </string>
+
+    <string name="add_contact">Add new contact</string>
+    <string name="wait_sending">Sending in progress ....</string>
+    <string name="mail_sent">Your password has been sent to your email address.</string>
+
+    <string name="label_users">Users</string>
+    <string name="label_filter">Filter</string>
+
+    <string name="name_surname">Name</string>
+    <string name="gender">Gender</string>
+
+    <string name="label_online">Online</string>
+    <string name="label_all">All</string>
+
+    <string name="online_since">Online there is %1$s</string>
+
+    <string name="report_user">Report this user</string>
+
+    <string name="request_sent_ago">Request sent %1$s ago</string>
+
+    <string name="friends_request_add">A friend request has been sent</string>
+    <string name="friends_request_remove">Friend request has been deleted</string>
+
+    <string-array name="user_report">
+        <item>Nudity with inappropriate content</item>
+        <item>Verbal harassment</item>
+        <item>Violent content</item>
+        <item>Minor Person</item>
+        <item>Spam or fraud</item>
+        <item>fake profile</item>
+        <item>fake sex</item>
+    </string-array>
+
+    <string-array name="photo_report">
+        <item>I don\'t like</item>
+        <item>Explicit nudity </item>
+        <item>Violent content</item>
+        <item>Spam</item>
+        <item>False Information</item>
+    </string-array>
+
+
+
+    <string-array name="user_actions">
+        <item>Send add request</item>
+        <item>Add request sent</item>
+        <item>Open a discussion</item>
+        <item>validate add request</item>
+        <item>Report user</item>
+        <item>Block user</item>
+        <item>Delete add request</item>
+        <item>Unblock user</item>
+
+    </string-array>
+
+
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Popular photos</item>
+        <item>Reservations</item>
+        <item>Friends requests</item>
+        <item>Notifications</item>
+        <item>My profile</item>
+        <item>My friends</item>
+        <item>My favorites</item>
+        <item>My tokens</item>
+        <item>Settings</item>
+        <item>Reactions</item>
+    </string-array>
+
+    <string-array name="gender_arrays">
+        <item>Men</item>
+        <item>Women</item>
+    </string-array>
+
+
+    <string-array name="country_arrays">
+        <item>Algeria</item>
+        <item>Angola</item>
+        <item>Australia</item>
+        <item>Bahrain</item>
+        <item>Belgium</item>
+        <item>Benin</item>
+        <item>Burkina Faso</item>
+        <item>Cameroon</item>
+        <item>Canada</item>
+        <item>Cape Verde</item>
+        <item>Central African Republic</item>
+        <item>Chad</item>
+        <item>China</item>
+        <item>Congo</item>
+        <item>Cote d\'Ivoire</item>
+        <item>Czech Republic</item>
+        <item>Denmark</item>
+        <item>Egypt</item>
+        <item>Ethiopia</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>Gabon</item>
+        <item>Gambia</item>
+        <item>Germany</item>
+        <item>Ghana</item>
+        <item>Gibraltar</item>
+        <item>Greece</item>
+        <item>Guadeloupe</item>
+        <item>Guinea</item>
+        <item>Haiti</item>
+        <item>Honduras</item>
+        <item>Hong Kong</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+        <item>Ireland</item>
+        <item>Italy</item>
+        <item>Japan</item>
+        <item>Jordan</item>
+        <item>Kenya</item>
+        <item>Korea</item>
+        <item>Kuwait</item>
+        <item>Latvia</item>
+        <item>Lebanon</item>
+        <item>Libya</item>
+        <item>Madagascar</item>
+        <item>Malawi</item>
+        <item>Malaysia</item>
+        <item>Maldives</item>
+        <item>Mali</item>
+        <item>Malta</item>
+        <item>Mauritania</item>
+        <item>Mauritius</item>
+        <item>Monaco</item>
+        <item>Morocco</item>
+        <item>Mozambique</item>
+        <item>Namibia</item>
+        <item>Netherlands</item>
+        <item>New Zealand</item>
+        <item>Niger</item>
+        <item>Nigeria</item>
+        <item>Norway</item>
+        <item>Oman</item>
+        <item>Pakistan</item>
+        <item>Palestine</item>
+        <item>Panama</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Qatar</item>
+        <item>Romania</item>
+        <item>Russian Federation</item>
+        <item>Rwanda</item>
+        <item>Saudi Arabia</item>
+        <item>Senegal</item>
+        <item>Serbia</item>
+        <item>Seychelles</item>
+        <item>Sierra Leone</item>
+        <item>Somalia</item>
+        <item>South Africa</item>
+        <item>South Sudan</item>
+        <item>Spain</item>
+        <item>Sri Lanka</item>
+        <item>Sudan</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Syrian Arab Republic</item>
+        <item>Tanzania</item>
+        <item>Thailand</item>
+        <item>Togo</item>
+        <item>Tonga</item>
+        <item>Trinidad and Tobago</item>
+        <item>Tunisia</item>
+        <item>Turkey</item>
+        <item>Uganda</item>
+        <item>Ukraine</item>
+        <item>United Arab Emirates</item>
+        <item>United Kingdom</item>
+        <item>United States</item>
+        <item>Yemen </item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+    </string-array>
+
+
+    <string-array name="country_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>39</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+        <item>71</item>
+        <item>72</item>
+        <item>73</item>
+        <item>74</item>
+        <item>75</item>
+        <item>76</item>
+        <item>77</item>
+        <item>78</item>
+        <item>79</item>
+        <item>80</item>
+        <item>81</item>
+        <item>82</item>
+        <item>83</item>
+        <item>84</item>
+        <item>85</item>
+        <item>86</item>
+        <item>87</item>
+        <item>88</item>
+        <item>89</item>
+        <item>90</item>
+        <item>91</item>
+        <item>92</item>
+        <item>93</item>
+        <item>94</item>
+        <item>95</item>
+        <item>96</item>
+        <item>97</item>
+        <item>98</item>
+        <item>99</item>
+        <item>100</item>
+        <item>101</item>
+        <item>102</item>
+        <item>103</item>
+        <item>104</item>
+    </string-array>
+
+
+    <string-array name="contacts_invite">
+        <item>E-Mails</item>
+        <item>Share</item>
+    </string-array>
+
+
+    <!-- Preference Titles -->
+    <string name="status_header_category">Your Presence Status</string>
+    <string name="status_header">Your Status</string>
+    <string-array name="pref_status_entries">
+        <item>Online</item>
+        <item>Busy</item>
+    </string-array>
+    <string-array name="pref_status_values">
+        <item>online</item>
+        <item>busy</item>
+    </string-array>
+
+
+    <string name="account_header_category">Account Settings</string>
+
+    <string name="header_regional_title">Regional Configuration</string>
+    <string name="header_regional">Change regional settings</string>
+    <string name="header_regional_desc">Change your country and your city</string>
+
+    <string name="pref_countries_title">Countries</string>
+    <string name="pref_cities_title">City</string>
+
+    <string name="header_edit_password">Change Password</string>
+    <string name="header_edit_password_desc">Change password regularly for your security</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="repeat_new_password">Repeat new password</string>
+    <string name="new_password_edit_success">Your password has been successfully changed</string>
+    <string name="edit">Edit</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="header_edit_email">Change email address</string>
+    <string name="header_edit_email_desc">Specify your email address to receive notifications</string>
+    <string name="new_email_edit_success">Your Email address has been successfully changed.</string>
+
+
+    <string name="header_conf_title">Privacy settings</string>
+    <string name="header_conf_desc">You can set your profile privacy</string>
+
+    <string name="pref_private_messages">Private messages</string>
+    <string name="pref_private_messages_title">Who can send me a private message ?</string>
+    <string-array name="pref_private_messages_entries">
+        <item>Friends and users with tokens</item>
+        <item>Only my friends</item>
+    </string-array>
+    <string-array name="pref_private_messages_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+
+    <string name="pref_audio_call">Voice Calls</string>
+    <string name="pref_audio_call_title">Who can call me ?</string>
+    <string-array name="pref_audio_call_entries">
+        <item>All my friends</item>
+        <item>Friends with tokens</item>
+        <item>No one</item>
+    </string-array>
+    <string-array name="pref_audio_call_values">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string name="pref_video_call">Video Calls</string>
+    <string name="pref_video_call_title">Who can call me ?</string>
+    <string-array name="pref_video_call_entries">
+        <item>All my friends</item>
+        <item>Friends with tokens</item>
+        <item>No one</item>
+    </string-array>
+    <string-array name="pref_video_call_values">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+
+    <string name="pref_medias">Media</string>
+    <string name="pref_medias_desc">Who can see my photos ?</string>
+    <string-array name="pref_medias_entries">
+        <item>All users</item>
+        <item>Users with tokens</item>
+        <item>All my friends</item>
+        <item>Friends with tokens</item>
+        <item>No one</item>
+    </string-array>
+    <string-array name="pref_medias_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+
+    <string name="pref_friends_list">Friends list</string>
+    <string name="pref_friends_list_desc">who can see my friends list ?</string>
+    <string-array name="pref_friends_list_entries">
+        <item>All users</item>
+        <item>Users with tokens</item>
+        <item>All my friends</item>
+        <item>Friends with tokens</item>
+        <item>No one</item>
+    </string-array>
+    <string-array name="pref_friends_list_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+
+    <string name="pref_friends_requests">Friends requests</string>
+    <string name="pref_friends_requests_desc">Who can send me friend requests ?</string>
+    <string-array name="pref_friends_requests_entries">
+        <item>All users</item>
+        <item>No one</item>
+    </string-array>
+    <string-array name="pref_friends_requests_values">
+        <item>0</item>
+        <item>4</item>
+    </string-array>
+
+
+    <string name="account_header_notifications">Notification settings</string>
+
+    <string name="header_android_notifications_title">Android notifications settings</string>
+    <string name="header_android_notifications">Android notifications</string>
+    <string name="header_android_notifications_desc">Change android notifications settings</string>
+
+
+    <string name="header_android_mail">Email notifications</string>
+    <string name="header_android_mail_desc">Allow email notifications</string>
+
+
+    <string name="pref_sne_add_friends_a">Friend request accepted</string>
+    <string name="pref_sne_add_friends_r">Friend request received</string>
+    <string name="pref_sne_messages">Received new message</string>
+    <string name="pref_sne_likes">Likes the profile</string>
+    <string name="pref_sne_visitors">Visitors</string>
+    <string name="pref_sne_others">Operations with Tokens</string>
+
+    <string name="pref_sne_add_friends_a_desc">When a friend request is accepted</string>
+    <string name="pref_sne_add_friends_r_desc">When a new friend request is received</string>
+    <string name="pref_sne_messages_desc">When a new message is received and you are offline</string>
+    <string name="pref_sne_likes_desc">When someone Likes your profile</string>
+    <string name="pref_sne_visitors_desc">When Someone visits your profile</string>
+    <string name="pref_sne_others_desc">All operations with Tokens</string>
+
+
+    <string name="header_android_sound">Sound notifications</string>
+    <string name="header_android_sound_desc">Set up sound notifications</string>
+
+    <string name="pref_snc_messages">Received Message</string>
+    <string name="pref_snc_visitors">Visitors</string>
+    <string name="pref_snc_visitors_desc">Visitors of your profile</string>
+    <string name="pref_snc_likes">Likes the profile</string>
+    <string name="pref_snc_likes_desc">Users who liked your profile</string>
+    <string name="pref_snc_others">Others</string>
+    <string name="pref_snc_others_dec">Friends requests and acceptances</string>
+
+    <string name="like">I like</string>
+    <string name="not_like">I no longer like</string>
+
+    <string name="header_other">Other</string>
+
+    <string name="pref_share">Share with your friends</string>
+    <string name="pref_share_desc">Share chati by email or social networks</string>
+
+    <string name="pref_about">About CHATI</string>
+    <string name="pref_deconect">Logout</string>
+    <string name="pref_delete_profile">Delete profile</string>
+
+    <string name="age">Age</string>
+    <string name="lives_in">Lives in</string>
+    <string name="informations">Informations</string>
+
+    <string name="access_friends">Access friend list</string>
+    <string name="access_medias">See photos</string>
+    <string name="access_friends_list">See friends list</string>
+    <string name="access_vip">VIP Subscription</string>
+    <string name="access_audio_call">Make audio call</string>
+    <string name="access_video_call">Make video call</string>
+    <string name="tokens_init">From CHATI</string>
+    <string name="tokens_buy">Purchase</string>
+    <string name="tokens_earn">From CHATI</string>
+    <string name="tokens_transfer">Transfer</string>
+    <string name="access_topbar">Access top bar</string>
+    <string name="reservation_request">Reservation Request</string>
+    <string name="reservation_cancelled">Reservation Canceled</string>
+    <string name="reservation_ok">Reservation Accepted</string>
+
+
+    <string name="get_tokens">Get tokens</string>
+    <string name="contact_us">Contact us</string>
+
+
+    <string name="d">d</string>
+    <string name="h">h</string>
+    <string name="m">m</string>
+    <string name="s">s</string>
+
+    <string name="like_photo">I like</string>
+
+    <string name="profile_txt">Set this photo as profile photo</string>
+    <string name="profile_success">This photo has been set as a profile photo successfully.</string>
+
+    <string name="notifications_N_LIKES">Liked your profile.</string>
+    <string name="notifications_N_VISITORS">Visited your profile.</string>
+    <string name="notifications_N_AD_ACCEPT">Has accepted your request to be added to their friends list.</string>
+    <string name="notifications_N_TOKENS_access_medias">Sent you a token to access your photos.</string>
+    <string name="notifications_N_TOKENS_transfert">Transferred you tokens.</string>
+    <string name="notifications_N_TOKENS_access_friends_list">Sent you a token to see your friends list.</string>
+    <string name="notifications_N_TOKENS_access_friends">Sent you a token to access your friends list.</string>
+    <string name="notifications_N_TOKENS_access_audio_call">Sent you a token to establish an audio call with you.</string>
+    <string name="notifications_N_TOKENS_access_video_calls">Sent you a token to make a video call with you.</string>
+    <string name="notifications_N_AD_REQUEST">Sent you a friend request.</string>
+    <string name="notifications_N_RESERVATION_REQUEST">Sent you a reservationRequest request.</string>
+    <string name="notifications_N_RESERVATION_ACCEPT">Has accepted your reservationRequest request.</string>
+
+
+    <string name="AD_REQUEST_TXT">You want to be my friend ?</string>
+
+    <string name="No_Internet_connexion">Can not get data from server.</string>
+    <string name="empty_ads_requests_list">No pending friend request.</string>
+    <string name="empty_favorites_list">You haven\'t liked any profiles yet.</string>
+    <string name="empty_notifications_list">No notifications received.</string>
+
+    <string name="retry_gain">Click to try again</string>
+
+    <string name="YES">Yes</string>
+    <string name="NO">No</string>
+
+    <string name="logout_confirm">Do you want to disconnect from chati?</string>
+
+    <string name="complete_fb_infos">Missing informations</string>
+    <string name="complete_fb_register">Finish registration</string>
+    <string name="complete_fb_register_desc">Please complete mandatory informations</string>
+
+    <string name="reaction_txt">You have a question or a comment? you want to reportUser an error or an application bug or a proposal for the better experience. Please write to us.  </string>
+    <string name="reaction_ok">Your message has been sent successfully, thank you for your contribution.</string>
+
+    <string name="not_accept_audio_call">Unfortunately  %s does not accept voice calls at the moment.</string>
+    <string name="not_accept_video_call">Unfortunately  %s does not accept video calls at the moment.</string>
+
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="terms_of_use">Terms of use</string>
+
+    <string name="delete_confirm">If you confirm deletion of your account, all photos, messages, friends, and interactions with other users will be deleted. In addition, the operation is irreversible. Delete your Chati profile?</string>
+    <string name="reactivate_account_txt">You have deleted your Chati account,  all your photos, friends, messages, interactions with other users have been deleted. If you want to reactivate your account, use the Reactivate button.</string>
+    <string name="reactivate_account_btn">Reactivate</string>
+    <string name="sanction_account_txt"><Data><![CDATA[Your account has been temporarily deactivated following several reports of non-compliance with Chati\'s rules of use.
+                                        <p>Reason for deactivation: <b>%s</b> .</p>
+                                        You can reactivate your account in <b>%s</b> day(s). Thank you for your understanding.]]></Data></string>
+
+    <string name="m_verified_ok"><Data><![CDATA[You have already confirmed your email address :<font color=#1a0dab> %s </font>.]]></Data></string>
+
+    <string name="switch_to_vip">Switch to VIP</string>
+    <string name="switch_to_vip_desc">Switch to VIP to remove the restriction.</string>
+    <string name="max_users_like">You have reached the maximum number of people that you can like.</string>
+    <string name="max_friends_Reached">You can no longer send friend requests. Because you\'ve reached the maximum number of friends. You have to delete some friends or </string>
+
+    <string name="account_disabled">Disabled account</string>
+    <string name="account_sanctioned">Sanctioned profile</string>
+    <string name="account_sanctioned_offline">You have been sanctioned for %s days.</string>
+
+
+    <string name="share_with_friends_desc">Invite your friends to Chati and earn tokens</string>
+    <string name="share_email_success">Operation successfully completed, you have won %s token(s).</string>
+
+
+    <string name="share_header">Shares</string>
+
+    <string name="my_photos">My pictures</string>
+
+    <string name="max_photos_limit">You have reached the maximum number of photos.</string>
+
+    <string name="tooltip_photos">Press this button to add a new photo.</string>
+
+    <string name="start_now">Install application and start chatting now</string>
+    <string name="share_app_link_txt">\nLet me recommend you this application: \n https://play.google.com/store/apps/details?id=com.chati.app\n</string>
+    <string name="share_Activity_title">Share Chati</string>
+    <string name="error_frontal_cam">Sorry, your phone\'s front camera could not be detected.</string>
+    <string name="intro_model_txt">Drag models to choose the one that best matches your personality. Then try to take a Selfie similar to Model\'s.</string>
+    <string name="check_model_txt">Before posting the photo. Check that the photo taken matches the model selected in the highlight. </string>
+
+    <string name="update_user_success">Your profile has been successfully modified.</string>
+
+    <string name="nav_vip">Become VIP</string>
+
+
+    <integer-array name="plus_icons">
+        <item>@drawable/plus_badge</item>
+        <item>@drawable/plus_star</item>
+        <item>@drawable/plus_likes_you</item>
+        <item>@drawable/plus_like</item>
+        <item>@drawable/plus_add_friends</item>
+        <item>@drawable/plus_add_photos</item>
+        <item>@drawable/plus_pub</item>
+    </integer-array>
+
+    <string-array name="plus_entries">
+        <item>A golden VIP badge in your profile</item>
+        <item>Unlimited liking profiles</item>
+        <item>Find out who liked your profile</item>
+        <item>Find out who liked your photos</item>
+        <item>Add unlimited friends</item>
+        <item>Add unlimited photos</item>
+        <item>Use without advertising</item>
+    </string-array>
+
+    <string name="vip_policy_txt"><Data><![CDATA[if you choose to activate a VIP membership. Operation is irreversible. You will enjoy the benefits of a full VIP subscription for the duration of the subscription indicated. You can renew another subscription after the end of the current subscription. By activating a VIP pack you agree to our <a href="https://chati.ovh/privacy/terms">Terms of Service</a> and <a href="https://chati.ovh/privacy/index">Privacy Policy</a>.]]></Data></string>
+    <string name="vip_success">Congratulations, your VIP subscription has been successfully activated for a period of %1$s days.</string>
+    <string name="nav_photos">Popular photos</string>
+
+    <string name="top_100">Popular Photos</string>
+    <string name="new_photos">New Photos</string>
+
+    <string name="report_photo">Report this photo</string>
+
+    <string name="txt_or">OR</string>
+    <string name="txt_share_chati">Share CHATI with your friends and earn Tokens ...</string>
+    <string name="btn_share_chati">Share CHATI</string>
+    <string name="menu_earn_tokens">Earn Tokens</string>
+    <string name="menu_likes_photo">Who liked my photo</string>
+
+
+    <string name="send_token_txt">Please specify the number of tokens to transfer.</string>
+    <string name="send_token_confirmations">Confirmation</string>
+    <string name="send_token_alert">Are you sure you want to transfer %1$s token(s) to %2$s.</string>
+    <string name="send_token_title_out">You sent %s token(s).</string>
+    <string name="send_token_title_in">Sent you tokens %s token(s).</string>
+
+    <string name="earn_photo_tokens_txt">This operation can only be done once. do you want to receive your tokens now ?</string>
+
+
+    <string name="subscribe_policy"><Data><![CDATA[By registering, you agree to Chati\'s <a href="https://chati.ovh/privacy/terms">Terms</a> and  <a href="https://chati.ovh/privacy/index">Privacy Policy</a>.]]></Data></string>
+    <string name="earn_contact_tooltip">Click here to add your friends\' email addresses. Then click on Send to earn tokens. You will earn 1 token per 05 emails sent.</string>
+    <string name="earn_share_tooltip">Click here to share CHATI with your friends. Then click on Send to earn tokens. You will earn 1 token for each 05 shares made.</string>
+
+
+    <string name="wait_response">You must receive at least one message from %1$s to be able to send other messages.</string>
+    <string name="wait_response_audio">You must receive at least one message from %1$s to be able to make an audio call with him.</string>
+    <string name="wait_response_video">You must receive at least one message from %1$s to be able to make a video call with him.</string>
+
+
+    <string name="nudity_error">Automatic photo scan revealed explicit content. Sharing adult photos in public is prohibited in CHATI. Please upload another image.</string>
+    <string name="facebook_contact">Contact us on facebook</string>
+
+    <string name="reservation_request_intro1"><Data><![CDATA[<p>If you have feelings for <b>%s</b> and you  think that your relationship can lead to a serious marriage project. Do not hesitate to send him(her) a reservation request for <b>03 days</b>.</p>]]></Data></string>
+    <string name="reservation_request_intro2"><Data><![CDATA[<p>CHATI will try to provide you with best possible conditions to succeed in this project: </p>]]></Data></string>
+
+    <integer-array name="reservation_request_icons">
+        <item>@drawable/plus_pub</item>
+        <item>@drawable/plus_pub</item>
+        <item>@drawable/ic_reservation_badge</item>
+    </integer-array>
+
+    <string-array name="reservation_request_entries">
+        <item>Focus on your couple. No new friend requests sent or received.</item>
+        <item>Patience. One cannot remove the other from the friends list.</item>
+        <item>No one can disturb you. Your profile picture will be linked to their profile picture with a reservation indicator.</item>
+    </string-array>
+
+    <string name="reservation_request_ok">Reservation request is sent successfully. If the recipient refuses your request. %s tokens will be returned to your balance.</string>
+
+    <string name="res_state_sent">Sent</string>
+    <string name="res_state_received">Received</string>
+    <string name="res_state_accepted">Accepted, Running ...</string>
+
+    <string name="res_sent_cancel">You want to cancel the reservation request sent to %s ?</string>
+    <string name="res_running">Reservation is running ... you have %s left.</string>
+
+    <string name="reservation_accept_intro1"><Data><![CDATA[<p><b>%s</b> has feelings for you and thinks that your relationship can lead to a serious marriage project. He(she) offers you a reservation request of <b>03 days</b>.</p>]]></Data></string>
+
+    <string name="reservation_cancel_ok">Operation successfully completed, the %s tokens are returned to your balance.</string>
+
+    <string name="reservation_decline_ok">Reservation rejected .</string>
+
+
+    <string name="reservation_accept_ok">Congratulations, Reservation started from now until 03 days..</string>
+
+    <string name="no_reservations_found">No reservation found.</string>
+
+
+    <string name="menu_profile_overview">Profile overview</string>
+
+    <string name="reservation_same_gender_error">Can not send reservation request to user having same gender.</string>
+
+</resources>
